@@ -18,7 +18,10 @@ header {
 }
 #middle {
 	background-color: red;
-	width: 70%;
+	width: 600px;
+	margin: 0 auto;
+	height: 90vh;
+
 }
 #right {
 	float: right;
@@ -29,23 +32,23 @@ header {
 	height: 15vh;
 }*/
 .main {
-	width: 60%;
+	width: 400px;
 	background-color: blue;
-	margin: 8% auto;
+	margin: 20px auto;
 	height: 20vh;
 }
 .yellow {
-	height: 10vh;
-	width: 10vh;
-	margin: 4vw 0 0 4vw;
+	height: 80px;
+	width: 80px;
+	margin: 15px 0 0 40px;
 	background-color: yellow;
 	display: inline-block;
 	vertical-align: top;
 }
 .green {
-	height: 13vh;
-	width: 18vw;
-		margin:  4vw 0 0 4vw;
+	height: 100px;
+	width: 150px;
+		margin:  15px 0 0 40px;
 
 	background-color: green;
 	display: inline-block;
