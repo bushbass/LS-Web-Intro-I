@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	border: 0px;
+	}
+header {
+	background-color: red;
+	height: 15vh;
+	padding
+}
+#left-gutter {
+    /*display: inline-block;*/
+    float: left;
+	height: 85vh;
+}
+#right-gutter {
+	/*display: inline-block;*/
+	float: right;
+	height: 85vh;
+}
+.gutter {
+	width: 15%;
+	background-color: yellow;
+}
+#content {
+	display: inline-block;
+	width: 70%;
+	background-color: blue;
+	height: 75vh;
+}
+footer {
+	background-color: green;
+	height: 10vh;
+	position: absolute;
+	bottom: 0px;
+	width: 70%;
+}
