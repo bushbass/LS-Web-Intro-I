@@ -1,0 +1,29 @@
+
+.container {
+	margin:0 auto;
+	max-width: 960px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 128px);
+}
+
+.header {
+  grid-area: 1/1/2/4;
+  background-color: red;
+}
+.blue-left {
+	grid-area: 2/1/8/2;
+	background-color: blue;
+}
+.yellow-right {
+	grid-area: 2/3/8/4;
+	background-color: yellow;
+}
+.purple {
+	grid-area: 2/2/8/3;
+	background-color: purple;
+}
+.green {
+  grid-area: 7/1/8/4;
+  background-color: green;
+}

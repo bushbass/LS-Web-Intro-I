@@ -1,0 +1,42 @@
+
+.header {
+	background-color: purple;
+	color: yellow;
+	height: 127px;
+}
+.container {
+	margin:0 auto;
+	max-width: 644px;
+	display: grid;
+	grid-template-columns: 97px 450px 97px;
+    grid-template-rows: 74px 250px 40px 250px 40px 250px 74px;
+}
+.red {
+	background-color: red;
+	grid-area: 1/1/8/4;
+}
+.blue1 {
+	grid-area: 2/2/3/3;
+	background-color: blue
+}
+.blue2 {
+	grid-area: 4/2/5/3;
+	background-color: blue
+}
+.blue3 {
+	grid-area: 6/2/7/3;
+	background-color: blue
+}
+.container2 {
+	display:grid;
+	grid-template-rows: 30px 124px 30px 1fr 30px;
+	grid-template-columns: 20px 124px 50px 1fr 30px;
+}
+.yellow1 {
+	grid-area: 2/2/3/3;
+	background-color: yellow;
+}
+.green1 {
+	grid-area: 2/4/4/5;
+	background-color: green;
+}
